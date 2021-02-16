@@ -2,16 +2,32 @@
 
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">#1DA1F2</item>
+        <item name="actionButtonStyle">@style/myActionButtonStyle</item>
         <!--
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         -->
+
+    </style>
+    <style name="myActionButtonStyle" parent ="Widget.AppCompat.ActionButton">
+        <item name="android:minWidth">24dp</item>
+        <item name="android:maxWidth">40dp</item>
+        <item name="android:width">40dp</item>
     </style>
 
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
+
+    <style name="counterText">
+
+    </style>
+
+    <style name="counterOverride">
+        <item name="colorPrimary">#ED4337</item>
+    </style>
+
 
 </resources>
